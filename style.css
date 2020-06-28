@@ -78,7 +78,6 @@ header{
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 50vh;
 }
 
 .profile{
@@ -101,7 +100,6 @@ header{
 .about-content{
     display: flex;
     align-items: center;
-    height: 50vh;
 }
 
 .about-block{
@@ -121,6 +119,7 @@ header{
     border-radius: 10px;
     margin-top: 30px;
     display: flex;
+    flex-direction: column;
     padding-bottom: 10px;
 
 }
@@ -131,11 +130,20 @@ header{
 }
 
 .ecell-iit-heading{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .ecell-iit-heading h5{
     font-weight: bold;
+}
+
+#project-page{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    padding: 50px 0px 25px 0px;
 }
 
 
@@ -163,9 +171,23 @@ header{
 
 
 @media only screen and (max-width : 400px){
-    #about-page{
-        padding-top: 80px;
+
+    #home-page{
+        padding: 0px 5px 0px 5px;
     }
+
+    #about-page{
+        padding: 0px 5px 0px 5px;
+    }
+
+    #experience-page{
+        padding: 0px 5px 0px 5px;
+    }
+
+    #project-page{
+        padding: 0px 5px 0px 5px;
+    }
+
 
     .about-content{
         height: 80vh;
