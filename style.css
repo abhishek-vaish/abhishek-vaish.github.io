@@ -163,6 +163,10 @@ header{
 
 
 @media only screen and (max-width : 400px){
+    #about-page{
+        padding-top: 80px;
+    }
+
     .about-content{
         height: 80vh;
     }
