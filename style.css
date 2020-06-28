@@ -219,7 +219,33 @@ header{
 }
 
 @media only screen and (max-width : 320px){
+
+    #home-page{
+        padding: 0px 5px 0px 5px;
+    }
+
+    #about-page{
+        padding: 0px 5px 0px 5px;
+    }
+
+    #experience-page{
+        padding: 0px 5px 0px 5px;
+    }
+
+    #project-page{
+        padding: 0px 5px 0px 5px;
+    }
+
+    #tools-page{
+        padding: 0px 5px 0px 5px;
+    }
+
+    .tools-logo img{
+        width: 50px;
+        padding-bottom: 20px; 
+    }
+
     .about-content{
-        height: 100vh;
+        height: 80vh;
     }
 }
