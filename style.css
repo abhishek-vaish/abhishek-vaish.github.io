@@ -1,304 +1,267 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: monospace;
-    background-color: black;
+    font-family: 'Lato', sans-serif;
     color: white;
 }
 
 nav{
-    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.topics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 80px;
+
+}
+
+.topics p{
+    color: black;
 }
 
 .nav-wrapper a{
+    text-transform: uppercase;
+}
+
+.nav-wrapper a:hover{
+    color: red;
+}
+
+.user-view{
+    background-color: black;
     color: white;
 }
 
-.header{
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: flex-end;
-    padding: 10px;
-    background-color: rgb(40, 40, 40);
-    color: white;
-}
-
-.logo-image-side img{
-    width: 30px;
-}
-
-header{
+#main-page{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://assets.website-files.com/5d9084907115f9831fc7c420/5db42647aad4b5d6bce983b2_tobias-van-schneider-bQ-XtB9IWmo-unsplash-cropped.jpg");
+    background-size: cover;
     width: 100%;
     height: 100vh;
 }
 
-.main-page{
-    height: 80vh;
+.rectangle{
+    width: 40px;
+    height: 2px;
+    background-color: white;
+}
+
+.red-block{
+    color: red;
+    font-weight: bold;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content p{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: small;
+}
+
+.content h2{
+    margin-top: 20px;
+    padding-top: 0;
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px white solid;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: rgba(255, 0, 0);
+}
+
+#extra-curricular{
+    margin-top: 100px;
+}
+
+.heading{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
 }
 
-.content h4{
-    text-align: center;
-}
-
-.button{
-    margin-top: 20px;
-}
-
-.button a{
-    background-color: white;
+.heading p{
     color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: small;
 }
 
-.button a:hover{
+.heading h5{
+    color: black;
+    font-weight: 500;
+}
+
+.header{
+    width: 100px;
+    height: 2px;
     background-color: black;
-    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.content .container p{
-    text-align: center;
-}
-
-.logo{
-    display: flex;
-    justify-content: center;
-}
-
-.logo-image{
-    animation-duration: 3s;
-}
-
-.logo img{
-    width: 150px;
-}
-
-.container{
-    width: 100%;
-}
-
-.container .heading h4{
-    font-weight: bold;
-}
-
-.container .rectangle{
-    width: 50px;
-    height: 4px;
-    background-color: black;
-}
-
-.about-profile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.profile{
-    width: 300px;
-    opacity: 0.8;
-}
-
-.profile:hover{
-    opacity: 1;
-}
-
-#about-page{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0px 25px 0px;
-    text-align: center;
-}
-
-.about-content{
-    display: flex;
-    align-items: center;
-}
-
-.about-block{
-    margin-top: 30px;
-}
-
-#experience-page{
-    width: 100%;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    padding: 50px 0px 25px 0px;
-}
-
-.heading{
-    text-align: center;
+.contribution{
+    margin-top: 40px;
 }
 
 .ecell-iit{
-    border: 2px solid white;
-    border-radius: 10px;
-    margin-top: 30px;
     display: flex;
-    padding-bottom: 10px;
+    width: 100%;
+    border: 2px solid black;
     padding: 20px;
-
-}
-
-.ecell-iit-logo img{
-    width: 100px;
-    padding-top: 10px;
-}
-
-.ecell-iit-heading{
-    margin-left: 20px;
-}
-
-.ecell-iit-heading h5{
-    font-weight: bold;
-}
-
-#project-page{
-    width: 100%;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    padding: 50px 0px 25px 0px;
-}
-
-#tools-page{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    padding: 50px 0px 25px 0px;
-}
-
-.tools{
-    padding: 50px;
-}
-
-.tools-logo img{
-    width: 100px;
-    opacity: 0.2;
-}
-
-.tools-logo img:hover{
-    opacity: 1;
-}
-
-.github-button a{
-    border: 2px solid white;   
-    background-color: black;
-    text-align: center;
     border-radius: 5px;
-    padding: 0px 200px 0px 200px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px grey;
 }
 
-.github-button a:hover{
-    font-size: large;
-    text-align: center;
-    background-color: black;
-}
-
-.github-button{
+.gla-university{
     display: flex;
-    justify-content: center; 
-}
-
-#contact-page{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    padding: 50px 0px 25px 0px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px grey;
 }
 
-.social-logo i{
-    font-size: 24pt;
-    margin-top: 20px;
-    margin-left: 100px;
-}
-
-.social-logo i:hover{
+.organization{
     color: black;
-    background-color: white;
-    padding: 10px;
-    border-radius: 50px;
+    font-size: small;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.organization-glau{
+    color: black;
+    font-size: small;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.gla-university h6{
+    color: black;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.ecell-iit img{
+    width: 150px;
+}
+
+.ecell-iit h5{
+    color: black;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.content-ecell{
+    margin-top: 20px;
+    padding-left: 20px;
+}  
+
+.content-glau{
+    padding-left: 20px;
+} 
+
+.details{
+    color: black; 
+    font-size: small;   
+}
+
+.date{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.date p{
+    color: black;
+    font-size: smaller;
+    margin-left: 2px;
+}
+
+.date i{
+    color: black;
+    font-size: 12pt;
+}
+
+.sup{
+    color: black
 }
 
 
 
 
 
-@media only screen and (max-width : 400px){
 
-    #home-page{
-        padding: 0px 5px 0px 5px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 414px){
+    .content-ecell{
+        margin-top: 10px;
+        padding-left: 10px;
+    }  
+    .ecell-iit{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
     }
 
-    #about-page{
-        padding: 0px 5px 0px 5px;
+    .ecell-iit img{
+        width: 100px;
     }
 
-    #experience-page{
-        padding: 0px 5px 0px 5px;
+    .organization{
+        color: black;
+        font-size: 7pt;
+        letter-spacing: 3px;
+        font-weight: 600;
+        text-transform: uppercase;
     }
 
-    #project-page{
-        padding: 0px 5px 0px 5px;
+    .gla-university{
+        display: flex;
+        flex-direction: column;
     }
 
-    #tools-page{
-        padding: 0px 5px 0px 5px;
-    }
-
-    .tools-logo img{
-        width: 50px;
-        padding-bottom: 20px; 
-    }
-
-
-    .about-content{
-        height: 80vh;
-    }
-}
-
-@media only screen and (max-width : 320px){
-
-    #home-page{
-        padding: 0px 5px 0px 5px;
-    }
-
-    #about-page{
-        padding: 0px 5px 0px 5px;
-    }
-
-    #experience-page{
-        padding: 0px 5px 0px 5px;
-    }
-
-    #project-page{
-        padding: 0px 5px 0px 5px;
-    }
-
-    #tools-page{
-        padding: 0px 5px 0px 5px;
-    }
-
-    .tools-logo img{
-        width: 50px;
-        padding-bottom: 20px; 
-    }
-
-    .about-content{
-        height: 80vh;
-    }
+    .content-glau{
+        padding-left: 10px;
+        margin-top: 8px;
+    } 
+    
 }
