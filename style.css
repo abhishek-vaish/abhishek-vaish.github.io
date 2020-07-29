@@ -10,10 +10,15 @@ nav{
     background-color: rgba(0, 0, 0, 0);
 }
 
+.menu{
+    width: 30px;
+}
+
 .topics{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
 }
 
 .side-footer{
@@ -135,6 +140,17 @@ nav{
     box-shadow: 5px 5px 10px grey;
 }
 
+.smart-bit{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px grey;
+}
+
 .gla-university{
     display: flex;
     width: 100%;
@@ -161,6 +177,49 @@ nav{
     text-transform: uppercase;
 }
 
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.github{
+    background-color: #E2E2E2;
+    color: black;
+    border: 1px white solid;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 16pt;
+    margin-right: 10px;
+}
+
+.weather img{
+    width: 100px;
+}
+
+.github:hover{
+    background-color: black;
+    color: white;
+}
+
+.weather-app{
+    border-radius: 10px;
+    width: 100px;
+}
+
+.organization-project{
+    color: black;
+    font-size: 6pt;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 3px 5px 3px 5px;
+}
+
 .gla-university h6{
     color: black;
     font-weight: 500;
@@ -169,6 +228,16 @@ nav{
 
 .ecell-iit img{
     width: 150px;
+}
+
+.smart-bit img{
+    width: 150px;
+}
+
+.smart-bit h5{
+    color: black;
+    font-weight: 500;
+    margin-top: 4px;
 }
 
 .ecell-iit h5{
@@ -212,8 +281,39 @@ nav{
     color: black
 }
 
+.parallax-container{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 
+}
 
+.heading-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.heading-contact p{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: small;
+}
+
+.heading-contact h5{
+    color: white;
+    font-weight: 500;
+}
+
+.header-contact{
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 
