@@ -464,6 +464,38 @@ footer{
     margin-left: 20px;
 }
 
+.linkedin:hover{
+    background-color: rgb(3, 110, 183);
+}
+
+.linkedin:focus{
+    background-color: rgb(3, 110, 183);
+}
+
+.github:hover{
+    background-color: rgb(66,66,66);
+}
+
+.github:focus{
+    background-color: rgb(66,66,66);
+}
+
+.instagram:hover{
+    background-color: #c13584;
+}
+
+.instagram:focus{
+    background-color: #c13584;
+}
+
+.email:hover{
+    background-color: #b23121;
+}
+
+.email:focus{
+    background-color: #b23121;
+}
+
 .copyright p{
     color: black;
 }
@@ -471,6 +503,10 @@ footer{
 @media screen and (max-width: 414px){
     .brand-logo{
         margin-left: 0;
+    }
+
+    .nav-wrapper a{
+        font-size: 18pt;
     }
 
     .content-ecell{
