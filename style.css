@@ -14,28 +14,60 @@ nav{
     width: 30px;
 }
 
-.topics{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
+.brand-logo{
+    margin-left: 60px;
+    text-transform: capitalize;
 }
 
 .side-footer{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 80px;
+    bottom: 60px;
+    background-color: #E2E2E2;
+    padding: 10px 0px 10px 0px;
+}
 
+.side-footer .social-icons .github-f{
+    font-size: 10pt;
+}
+
+.sidnav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topics{
+    margin-top: 40px;
+}
+
+.topics li{
+    padding: 20px;
+}
+
+.topics li a{
+    color: black;
+    font-size: 13pt;
+}
+
+.topics .fas{
+    color: black;
+    font-size: 13pt;
 }
 
 .topics p{
     color: black;
 }
 
-.nav-wrapper a{
+.right{
+    margin-right: 20px;
+}
+
+.right a{
     text-transform: uppercase;
 }
 
@@ -428,12 +460,6 @@ footer{
     margin-bottom: 20px;
 }
 
-.social-icons h6{
-    color: black;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
 .github-f{
     margin-left: 20px;
 }
@@ -443,6 +469,10 @@ footer{
 }
 
 @media screen and (max-width: 414px){
+    .brand-logo{
+        margin-left: 0;
+    }
+
     .content-ecell{
         margin-top: 10px;
         padding-left: 10px;
@@ -477,6 +507,10 @@ footer{
 
     .github-f{
         margin-left: 10px;
+    }
+
+    .lines{
+        width: 80%;
     }
     
 }
