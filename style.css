@@ -4,7 +4,9 @@
     box-sizing: border-box;
     color: white;
 }
-
+.topics .resume{
+    color:black;
+}
 nav{
     background-color: rgba(0, 0, 0, 0);
 }
@@ -504,6 +506,11 @@ footer{
 }
 
 @media screen and (max-width: 414px){
+    .main .content h2{
+        font-size: 36px;
+    }
+
+
     .brand-logo{
         margin-left: 0;
     }
