@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Lato';
     color: white;
 }
 
@@ -333,6 +332,10 @@ nav{
     padding-left: 20px;
 } 
 
+.weather-app .docker img{
+    width: 300px;
+}
+
 .details{
     color: black; 
     font-size: small;   
@@ -547,6 +550,9 @@ footer{
 
     .lines{
         width: 80%;
+    }
+    .docker{
+        width: 250px;
     }
     
 }
