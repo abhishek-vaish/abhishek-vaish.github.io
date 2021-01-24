@@ -11,7 +11,7 @@
 body{
     width: 100%;
     height: 90vh;
-    background-image: url("/images/bg-pattern-desktop.svg");
+    background-image: url("https://abhishekv5055.github.io/frontendmentor/images/bg-pattern-desktop.svg");
     background-repeat: no-repeat;
     background-size: 65%;
 
@@ -31,7 +31,7 @@ body{
 }
 
 .background{
-    background-image: url("/images/hero-desktop.jpg");
+    background-image: url("https://abhishekv5055.github.io/frontendmentor/images/hero-desktop.jpg");
     background-repeat: no-repeat;
     height: 100vh;
     width: 70%;
@@ -103,7 +103,7 @@ body{
 
 @media only screen and (max-width:375px){
     body{
-        background-image: url("/images/bg-pattern-desktop.svg");
+        background-image: url("https://abhishekv5055.github.io/frontendmentor/images/bg-pattern-desktop.svg");
         background-repeat: no-repeat;
         background-size: 400%;
     }
@@ -127,7 +127,7 @@ body{
     }
 
     .mobile{
-        background-image: url("images/hero-mobile.jpg");
+        background-image: url("https://abhishekv5055.github.io/frontendmentor/images/hero-mobile.jpg");
         width: 100%;
         height: 50vh;
         background-repeat: no-repeat;
